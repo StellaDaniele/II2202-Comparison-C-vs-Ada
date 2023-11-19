@@ -1,0 +1,115 @@
+V "GNAT Lib v13"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV MAX_TASK_ENTRIES=1
+RV MAX_TASKS=1+
+
+U main%b		multithreading.adb	7a801c07 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20230622210416 76789da1 ada%s
+D a-assert.ads		20230622210416 ba465f5c ada.assertions%s
+D a-except.ads		20230622210416 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20230622210416 bf4f806b ada.finalization%s
+D a-ioexce.ads		20230622210416 40018c65 ada.io_exceptions%s
+D a-numeri.ads		20230622210416 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20230622210416 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20230622210416 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-reatim.ads		20230622210416 b89a10c3 ada.real_time%s
+D a-stream.ads		20230622210416 119b8fb3 ada.streams%s
+D a-string.ads		20230622210416 90ac6797 ada.strings%s
+D a-sttebu.ads		20230622210416 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20230622210416 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20230622210416 9eaa38c6 ada.tags%s
+D a-textio.ads		20230622210416 5c2c6153 ada.text_io%s
+D a-unccon.ads		20230622210416 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230622210416 15f799c2 interfaces%s
+D i-c.ads		20230622210416 5c5a6c17 interfaces.c%s
+D i-cstrin.ads		20230622210416 f40c8db4 interfaces.c.strings%s
+D i-cstrea.ads		20230622210416 e53d8b8e interfaces.c_streams%s
+D multithreading.adb	20231119172644 26ac7d54 main%b
+D system.ads		20230622210416 f0509fe6 system%s
+D s-atacco.ads		20230622210416 903317eb system.address_to_access_conversions%s
+D s-assert.ads		20230622210416 9c4520c7 system.assertions%s
+D s-casuti.ads		20230622210416 cf13d755 system.case_util%s
+D s-conca2.ads		20230622210416 b5fb73f7 system.concat_2%s
+D s-crtl.ads		20230622210416 8a0692f8 system.crtl%s
+D s-exctab.ads		20230622210416 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230622210416 dc5161d4 system.file_control_block%s
+D s-finroo.ads		20230622210416 4ff27390 system.finalization_root%s
+D s-imagei.ads		20230622210416 c707dfd0 system.image_i%s
+D s-imgint.ads		20230622210416 d4a52a9b system.img_int%s
+D s-multip.ads		20230622210416 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20230622210416 97504df8 system.os_interface%s
+D s-parame.ads		20230622210416 d494a4a6 system.parameters%s
+D s-putima.ads		20230622210416 17291fe4 system.put_images%s
+D s-secsta.ads		20230622210416 578279f5 system.secondary_stack%s
+D s-soflin.ads		20230622210416 df77073e system.soft_links%s
+D s-stache.ads		20230622210416 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20230622210416 5be75682 system.stack_usage%s
+D s-stalib.ads		20230622210416 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230622210416 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20230622210416 8f5a9db6 system.storage_elements%b
+D s-tasinf.ads		20230622210416 601f6b72 system.task_info%s
+D s-taspri.ads		20230622210416 a1350802 system.task_primitives%s
+D s-taprop.ads		20230622210416 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20230622210416 0ec7ab0b system.tasking%s
+D s-taprob.ads		20230622210416 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20230622210416 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20230622210416 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20230622210416 cca55c94 system.tasking.stages%s
+D s-traent.ads		20230622210416 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230622210416 fa2a7f59 system.unsigned_types%s
+D s-valint.ads		20230622210416 1f610d7a system.val_int%s
+D s-valuns.ads		20230622210416 e8a1f424 system.val_uns%s
+D s-valuti.ads		20230622210416 fcd603d8 system.val_util%s
+D s-valuei.ads		20230622210416 11081e09 system.value_i%s
+D s-vaispe.ads		20230622210416 44130d39 system.value_i_spec%s
+D s-valueu.ads		20230622210416 18770347 system.value_u%s
+D s-vauspe.ads		20230622210416 a67b2f28 system.value_u_spec%s
+D s-wchcon.ads		20230622210416 d9032363 system.wch_con%s
+D s-widuns.ads		20230622210416 866a5800 system.wid_uns%s
+D s-widthu.ads		20230622210416 b32f15e2 system.width_u%s
+D s-win32.ads		20230622210416 15ac53fb system.win32%s
+G a e
+G c Z b b [main standard 3 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 21|1r6 13r7 25r4
+X 15 a-textio.ads
+58K13*Text_IO 787e16 21|1w10 13r11 25r8
+566U14*Put_Line 21|13s19 25s16
+X 21 multithreading.adb
+3U11*Main 3b11 26l5 26t9
+4T14 Thread_Type 6l8 6e19 8b14 15l8 15t19 17r13
+5Y13 Start 5>20 11b14 14l11 14t16 21s11
+5i20 Thread_Arg{integer} 12r20
+9i7 Thread_ID{integer} 12m7 13r65
+11i21 Thread_Arg{integer}
+17t4 Thread{4T14} 21r4
+X 40 s-stausa.ads
+207U14*Initialize 208i<c,__gnat_stack_usage_initialize>22
+272U14*Output_Results 276i<c,__gnat_stack_usage_output_results>22
+
