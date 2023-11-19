@@ -38,8 +38,10 @@ procedure Ada_Deadlock_Example is
    end Task_B;
 
    protected body Shared_Object is
-      entry Increment when others => null;
-      procedure Increment is
+   -- before modify:
+   -- entry Increment when others => null;
+   -- procedure Increment is
+      entry Increment when Variable>=0 is
       begin
          -- Simulate some work
          delay 0.2;
