@@ -17,8 +17,10 @@ procedure Ada_Race_Condition_Example is
    end Receiver;
 
    protected body Shared_Object is
-      entry Increment when others => null;
-      procedure Increment is
+   -- before modify:
+   -- entry Increment when others => null;
+   -- procedure Increment is
+      entry Increment when Variable>=0 is
       begin
          Variable := Variable + 1;
          Put_Line("Incremented Shared_Object to " & Integer'Image(Variable));
